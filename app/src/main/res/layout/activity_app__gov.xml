@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ui.activity.Gov.App_GovActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/a"
+        app:title="创建诉求"
+        android:background="#ff0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/gv_title"
+        android:layout_marginTop="20sp"
+        android:hint="主题"
+        android:background="@drawable/no_bj"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/gv_content"
+        android:layout_marginTop="20sp"
+        android:hint="内容"
+        android:background="@drawable/no_bj"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:layout_marginTop="20sp"
+        android:id="@+id/save"
+        android:text="发布诉求"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
